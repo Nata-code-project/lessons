@@ -1,0 +1,75 @@
+@import url("reset.css");
+
+@import url("fonts.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Open%20Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap');
+
+body {
+	font-family: "Roboto", sans-serif;
+	font-size: 14px;
+    font-weight: 400;
+}
+
+.text1 {
+    font-family: "Inter-Italic", cursive;
+	font-size: 18px;
+    font-weight: 700;
+    color: rgb(203, 100, 100, 0.5);
+    text-align: center;
+    letter-spacing: 10px;
+}
+.text2 {
+    font-family: "Inter-Italic", cursive;
+	font-size: 40px;
+    font-weight: 400;
+    text-shadow: 5px 5px 40px rgb(0, 0, 0, 0.5);
+    line-height: 1.25;
+}
+
+.text3 {
+    font-family: "lato", sans-serif;
+	font-size: 30px;
+    font-weight: 400;
+    font-style: italic;
+    color: rgb(107, 218, 181, 0.6);
+    text-transform: capitalize;
+}
+.text4 {
+    font-family: "lato", sans-serif;
+	font-size: 70px;
+    font-weight: 700;
+    text-align: justify;
+    text-decoration: line-through;
+    text-decoration-color: aquamarine;
+    text-decoration-style: wavy;
+}
+
+.text5 {
+    font-family: "Montserrat", sans-serif;
+	font-size: 20px;
+    font-weight: 500;
+    text-decoration: overline;
+    text-decoration-style: double;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.text6 {
+font-family: "Lora", serif;
+	font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-decoration-style: dotted;
+}
+
+.text7 {
+    font-family: "Lora", serif;
+	font-size: 90px;
+    font-weight: 500;
+    text-align: right;
+    text-transform: lowercase;
+    word-spacing: 80px;
+}
