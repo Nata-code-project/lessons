@@ -1,0 +1,74 @@
+@import url("reset.css");
+
+@import url("fonts.css");
+
+
+.block {
+    width: 100%;
+}
+.content {
+    max-width: 1180px;
+    max-height: 760px;
+    margin: 0 auto;
+    text-align: center;
+}
+.text1 {
+    color: black;
+    font-size: 32px;
+    font-style: normal;
+    font-family: "LatoHeavy",sans-serif;
+    font-weight: 800;
+    line-height: 1.25;
+    margin-top: 82px;
+}
+.items{
+    margin-top: 72px;
+    margin-bottom: 82px;
+}
+.items img{
+    max-width: 60px;
+    max-height: 60px;
+    margin-bottom: 24px;
+}
+.text{
+    color: black;
+    font-size: 16px;
+    font-style: normal;
+    font-family: "Lato",sans-serif;
+    font-weight: 700;
+    line-height: 1.25;
+}
+.items p{
+    margin-top: 24px;
+    color: #7e7f7c;
+    font-size: 16px;
+    font-style: normal;
+    font-family: "LatoMedium",sans-serif;
+    font-weight: 500;
+    line-height: 1.25;
+}
+.item1 {
+    font-size: 0;
+    margin-left: -34px;
+    margin-right: -34px;
+}
+.block1, .block2, .block3{
+    padding-left: 34px;
+    padding-right: 34px;
+    display: inline-block;
+    width: 33.333%;
+    vertical-align: top;
+}
+.item2 {
+    margin-top: 68px;
+    font-size: 0;
+    margin-left: -34px;
+    margin-right: -34px;
+}
+.block4, .block5, .block6{
+    padding-left: 34px;
+    padding-right: 34px;
+    display: inline-block;
+    width: 33.333%;
+    vertical-align: top;
+}
