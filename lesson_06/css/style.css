@@ -1,8 +1,6 @@
 @import url("reset.css");
 
-.main-unit{
-    background: linear-gradient(165deg,rgba(0, 64, 255, 1) 0%, rgba(255, 255, 255, 0.82) 50%, rgba(255, 242, 0, 1) 100%);
-}
+
 
 header{
     background: url("../img/fon2.png");
@@ -54,7 +52,7 @@ header a{
 }
 
 .block1 [class*="block"]{
-    background-color: rgb(47, 93, 93);
+    background-color: green;
     font-size: 50px;
     padding: 100px 20px;
     margin-top: 100px;
@@ -121,7 +119,7 @@ h1{
 
 h1 .text6{
     font-weight: 700;
-    color: 2F302C;
+    color: #2F302C;
     margin-bottom: 16px;
 }
 
