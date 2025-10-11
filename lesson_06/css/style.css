@@ -91,39 +91,42 @@ header a{
     background-position: right bottom;
     background-size: 50%;
     background-repeat: no-repeat;
+    margin-bottom: 100px;
 }
 
-.block2{
-    margin: 100px 0;
+.block-header{
+    background-image: url(../img/Rectangle.png) left center / cover 
+    no-repeat, #d9d9d9;
+    padding: 114px 0 110px 0;
 }
 
 .header{
-    background-image: url(../img/Rectangle.png);
-    max-width: 100%;
-    max-height: 612px;
-    background-repeat: no-repeat; 
-    padding: 114px 394px 110px 0;
-    padding-left: 52.5%;
-    background-size: cover;
+    max-width: 1392px;
+    margin: 0 auto;
 }
 
-h1{
+.content{
+    max-width: 518px;
+    margin-left: auto;
+}
+
+.title{
     font-family: "Montserrat", sans-serif;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 96px;
     font-style: normal;
     line-height: 1.04;
-    color: black;
+    color: #2F302C;
+    margin-bottom: 16px;
     text-transform: uppercase;
 }
 
-h1 .text6{
-    font-weight: 700;
-    color: #2F302C;
-    margin-bottom: 16px;
+.title .excerpt{
+    font-weight: 800; 
+    color: black;    
 }
 
-h2{
+.info, .subtitle{
     font-family: "Lato", sans-serif;
     font-weight: 700;
     line-height: 1.4;
@@ -134,7 +137,7 @@ h2{
     text-transform: uppercase;
 }
 
-.text5{ 
+.info{ 
     max-width: 308px;
     border-top: 1px solid black;
     padding-top: 36px;
@@ -149,7 +152,11 @@ h2{
     color: #7E7F7C;
 }
 
-.li1{
+.block-list{
+    margin-top: 100px;
+}
+
+.li-green{
     background-image: url(../img/Size=Medium.png);
     background-repeat: no-repeat;
     min-height: 32px;
@@ -163,7 +170,7 @@ h2{
     padding-left: 42px;
 }
 
-.li2{
+.li-grey{
     background-image: url(../img/check.png);
     background-repeat: no-repeat;
     min-height: 32px;
