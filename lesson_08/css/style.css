@@ -1,0 +1,118 @@
+@import url("reset.css");
+
+body{
+    font-family: "Dancing", serif;
+}
+
+header{
+    background: #000000;
+    background: linear-gradient(180deg,rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    text-align: center;
+    min-height: 300px;
+}
+.header {
+    padding-top: 50px;
+    font-weight: 600;
+    font-size: 80px;
+    color: rgb(123, 123, 123);
+}
+
+main{
+    background-color: rgb(253, 238, 219);
+}
+.section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    place-items: center;
+}
+
+[class*="section-"]{
+    background-color: white;
+    width: 900px;
+    padding: 50px 50px;
+    border-radius: 20px;
+    margin-bottom: 100px;
+}
+
+[class*="section-"]:last-child{
+    margin-bottom: 0;
+}
+
+.section-img:last-child{
+    width: 1200px;
+}
+
+.section p{
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.section-img img{
+    border-radius: 30px;
+}
+
+.section-backround::after{
+    content: "";
+    display: block;
+    height: 300px;
+    background-image: url("../img/background-flower1.avif");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.section-backround::before{
+    content: "";
+    display: block;
+    height: 300px;
+    background-image: url("../img/background-flower2.avif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.img-avif img{
+    max-width: 486px;
+}
+
+.img-webp{
+    max-width: 600px;
+}
+
+.container{
+    display: inline-block;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.container img{
+    padding-left: 20px;
+    padding-right: 20px;
+    vertical-align: top;
+}
+
+.container img:nth-child(1){
+    max-width: 385px;
+}
+
+.container img:nth-child(2){
+    max-width: 368px;
+}
+
+.container img:nth-child(3){
+    max-width: 362px;
+}
+
+footer{
+    background: #000000;
+    background: linear-gradient(360deg,rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 1) 100%);   
+    text-align: center;
+    min-height: 300px;
+}
+
+.footer {
+    padding-top: 50px;
+    font-weight: 600;
+    font-size: 80px;
+    color: rgb(126, 124, 124);
+}
