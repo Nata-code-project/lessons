@@ -1,0 +1,146 @@
+@import url("reset.css");
+@import url("fonts.css");
+.wrapper{
+    position: relative;
+    min-height: 100%;
+    overflow: clip;
+    font-family: "Lato";
+    
+    display: flex;
+	flex-direction: column;
+}
+.wrapper > main {
+	flex-grow: 1;
+}
+
+footer, header{
+    text-align: center;
+    font-size: 50px;
+    min-height: 100px;
+}
+
+.product {
+    text-align: center;
+    padding: 82px 0;
+}
+
+.product__container {
+    max-width: 1392px;
+    margin: 0 auto;
+}
+
+.product__title {
+    display: flex;
+    flex-direction: column;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 1.25;
+    text-transform: uppercase;
+    margin-bottom: 72px;
+}
+
+.product__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 72px 36px;
+}
+
+.product__item {
+    flex: 0 1 440px;
+}
+
+.card-product__link {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+}
+
+.card-product__img {
+    max-width: 440px;
+    max-height: 574px;
+}
+
+.card-product__info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 12px;
+}
+
+.card-product__title {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.25;
+    text-transform: uppercase;
+}
+
+.card-product__list {
+    display: flex;
+    column-gap: 4px;
+    align-self: center;
+}
+
+.card-product__price {
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 1.4;
+    text-transform: uppercase;
+}
+
+
+.section-choose {
+    text-align: center;
+    padding: 82px;
+}
+
+.section-choose__container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.section-choose__title {
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 1.25;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 72px;
+}
+
+.section-choose__list {
+    display: flex;
+    gap: 68px 68px;
+    flex-wrap: wrap;
+}
+
+.section-choose__item {
+    flex: 0 1 348px;
+}
+
+.card-choose {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 24px;
+}
+
+.card-choose__icon {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.card-choose__title {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 1.25;
+}
+
+.card-choose__text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.25;
+}
+
