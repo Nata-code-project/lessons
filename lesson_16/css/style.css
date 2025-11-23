@@ -157,6 +157,11 @@ body{
     max-width: 374px;
 }
 
+footer{
+    font-size: 20px;
+    text-align: center;
+}
+
 @media (width <=1425px) {
     .header__container{
         min-height: 120px;
