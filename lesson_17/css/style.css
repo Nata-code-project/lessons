@@ -35,7 +35,7 @@
     gap: 36px;
 }
 
-.product-banner-card {
+.banner-card {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
