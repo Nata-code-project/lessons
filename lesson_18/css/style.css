@@ -147,7 +147,7 @@
 
 .card-info__img {
     max-width: 647px;
-    aspect-ratio: 486px 647px;
+    aspect-ratio: 486px, 647px;
     border-radius: 33px;
 }
 
@@ -194,7 +194,7 @@
 
 .card-info-reverse__img {
     max-width: 600px;
-    aspect-ratio: 600px 602px;
+    aspect-ratio: 600px, 602px;
     border-radius: 33px;
 }
 
