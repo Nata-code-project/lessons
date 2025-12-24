@@ -11,6 +11,7 @@
     font-size: 17px;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
+    color: #343434;
 }
 .wrapper > main {
 	flex-grow: 1;
@@ -21,6 +22,13 @@
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
+}
+
+[class*="__title"]{
+    font-family: "Lora", serif;
+    font-size: 35px;
+    font-weight: 400;
+    color: #BA936F;
 }
 
 .header__container{
@@ -57,7 +65,7 @@
     border-bottom: 2px solid #BA936F;
 }
 
-.header__button{
+.menu__button{
     color: #FFFFFF;
     background-color: #BA936F;
     padding: 10px 47px;
@@ -69,3 +77,168 @@
     display: none;
 }
 
+.yoga-info, .yoga-info-reverse{
+    position: relative;
+}
+
+.yoga-info__container, .yoga-info-reverse__container {
+    display: flex;
+    padding-top: 71px;
+    padding-bottom: 136px;
+    flex-direction: column;
+    gap: 140px;
+}
+
+.yoga-info__img, .yoga-info-reverse__img {
+    position: absolute;
+}
+
+.yoga-info__img--center {
+    left: 0px;
+    top: 419px;
+}
+
+.yoga-info__card, .yoga-info-reverse__card {
+    display: flex;
+}
+
+.card-info{
+    column-gap: 27px;
+}
+
+.card-info__text {
+    max-width: 687px;
+    padding-top: 71px;
+    padding-bottom: 57px;
+}
+
+.card-info__title {
+    font-size: 50px;
+    margin-bottom: 70px;
+}
+
+.card-info__description {
+    max-width: 638px;
+    line-height: 1.4;
+    font-size: 19px;
+    margin-bottom: 96px;
+}
+
+.card-info__link {
+    line-height: 1.4;
+    position: relative;
+    padding-left: 63px;
+}
+
+.card-info__link::before{
+    content: "";
+    background: url(../img/Group.svg) left no-repeat;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -37px;
+    left: 0;
+}
+
+.card-info__link img{
+    padding-left: 6px;
+    align-items: center;
+}
+
+.card-info__img {
+    max-width: 647px;
+    aspect-ratio: 486px 647px;
+    border-radius: 33px;
+}
+
+.card-info-reverse {
+    flex-direction: row-reverse;
+    column-gap: 40px;
+}
+
+.card-info-reverse__text {
+    max-width: 560px;
+    padding-top: 63px;
+    padding-bottom: 43px;
+}
+
+.card-info-reverse__title {
+    margin-bottom: 55px;
+}
+
+.card-info-reverse__description{
+    margin-bottom: 43px;
+}
+
+.card-info-reverse__description p:nth-child(1) {
+    margin-bottom: 46px;
+    line-height: 1.4;
+    font-size: 19px;
+}
+
+.card-info-reverse__description p:nth-child(2){
+    line-height: 1.4;
+}
+
+.card-info-reverse__description p:nth-child(2) a{
+    color: #BA936F;
+    line-height: 1.4;
+}
+
+.card-info-reverse__link {
+    padding: 12px 47px;
+    background-color: #BA936F;
+    color: #FFFFFF;
+    border-radius: 15px;
+}
+
+.card-info-reverse__img {
+    max-width: 600px;
+    aspect-ratio: 600px 602px;
+    border-radius: 33px;
+}
+
+.yoga-info__img--top {
+    right: 0;
+    top: -121px;
+}
+
+.yoga-info-reverse__img--bottom {
+    right: 0px;
+    bottom: -287px;
+}
+
+.lessons__container {
+    padding-bottom: 138px;
+}
+
+.lessons__info {
+    display: flex;
+    flex-direction: column;
+    max-width: 839px;
+    padding-bottom: 64px;
+}
+
+.lessons__title {
+    padding-bottom: 32px;
+}
+
+.lessons__text {
+    line-height: 1.6;
+}
+
+.lessons__list {
+
+}
+.list {
+    display: flex;
+    gap: 43.5px 30px;
+}
+
+.list__figcaption {
+    font-size: 22px;
+    font-family: "Lora", serif;
+    color: #BA936F;
+    padding-top: 14px;
+    padding-left: 9px;
+}
