@@ -32,3 +32,10 @@ h6 {
 	font-size: inherit;
 	font-family: inherit;
 }
+
+th,
+td {
+	font-weight: inherit;
+	font-size: inherit;
+	font-family: inherit;
+}

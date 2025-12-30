@@ -47,7 +47,7 @@
     display: flex;
     text-align: center;
     align-items: center;
-    gap: 118px;
+    padding-right: 117px;
 }
 
 .menu__list {
@@ -65,7 +65,7 @@
     border-bottom: 2px solid #BA936F;
 }
 
-.menu__button{
+.header__button a{
     color: #FFFFFF;
     background-color: #BA936F;
     padding: 10px 47px;
@@ -73,30 +73,29 @@
     font-weight: 500;
 }
 
+.header__button :hover{
+    background-color: #FDEFE6;
+    color: #343434;
+}
+
 .header__icon-menu {
     display: none;
 }
 
-.yoga-info, .yoga-info-reverse{
-    position: relative;
+.yoga-info__container  {
+    padding-top: 71px;
+    padding-bottom: 140px;
 }
 
-.yoga-info__container, .yoga-info-reverse__container {
-    display: flex;
-    padding-top: 71px;
+.yoga-info-reverse__container{
     padding-bottom: 136px;
-    flex-direction: column;
-    gap: 140px;
 }
 
 .yoga-info__img, .yoga-info-reverse__img {
     position: absolute;
 }
 
-.yoga-info__img--center {
-    left: 0px;
-    top: 419px;
-}
+
 
 .yoga-info__card, .yoga-info-reverse__card {
     display: flex;
@@ -147,7 +146,7 @@
 
 .card-info__img {
     max-width: 647px;
-    aspect-ratio: 486px, 647px;
+    aspect-ratio: 486/ 647;
     border-radius: 33px;
 }
 
@@ -192,20 +191,14 @@
     border-radius: 15px;
 }
 
+.card-info-reverse__link:hover{
+    background-color: #FDEFE6;
+}
+
 .card-info-reverse__img {
     max-width: 600px;
-    aspect-ratio: 600px, 602px;
+    aspect-ratio: 600/ 602;
     border-radius: 33px;
-}
-
-.yoga-info__img--top {
-    right: 0;
-    top: -121px;
-}
-
-.yoga-info-reverse__img--bottom {
-    right: 0px;
-    bottom: -287px;
 }
 
 .lessons__container {
@@ -227,9 +220,6 @@
     line-height: 1.6;
 }
 
-.lessons__list {
-
-}
 .list {
     display: flex;
     gap: 43.5px 30px;
@@ -241,4 +231,364 @@
     color: #BA936F;
     padding-top: 14px;
     padding-left: 9px;
+}
+
+.schedule__container {
+    padding-bottom: 138px;
+}
+
+.schedule__info {
+    max-width: 839px;
+}
+
+.schedule__title {
+    padding-bottom: 16px;
+}
+
+.schedule__text {
+    line-height: 1.6;
+}
+
+.content-schedule {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 36px;
+    padding-top: 41px;
+}
+
+.content-schedule__table{
+    flex-grow: 1;
+    max-width: 661px;
+    font-size: 17px;
+    color: #343434;
+    font-weight: 400;
+    line-height: 1.6;
+    text-transform: uppercase;
+    border-collapse: collapse;
+}
+
+.content-schedule__table tr{
+    border-top: 1px solid #BA936F;
+}
+
+.content-schedule__table tr:last-child{
+    border-bottom: 1px solid #BA936F;
+}
+
+.content-schedule__table th, td{
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.content-schedule__link{
+    position: relative;
+}
+
+.content-schedule__img{
+    position: absolute;
+    top: 12px;
+    width: 15px;
+}
+
+.content-schedule__table th{
+    text-align:left;
+}
+
+.content-schedule__time{
+    text-align: right;
+}
+
+.content-schedule__picture{
+    overflow: hidden;
+    border-radius: 33px;
+}
+
+@media (width >= 1340px){
+    .yoga-info{
+        background-image: url(../img/fond-2.webp), url(../img/fond-1.webp);
+        background-repeat: no-repeat, no-repeat;
+        background-position: 0 311px, 100% -50px;
+    }
+
+    .yoga-info-reverse{
+        background-image: url(../img/fond-1.webp);
+        background-repeat: no-repeat;
+        background-position: 100% 340px;
+    }
+
+    .schedule{
+        background-image: url(../img/fond-2.webp);
+        background-repeat: no-repeat;
+        background-position: 0 -122px;
+    }
+}
+
+@media (width <= 1168px){
+    .content-schedule__picture img{
+        max-width: 400px;
+    }
+}
+
+@media (width <= 1062px) {
+    .menu{
+        padding-right: 58px;
+    }
+
+    .menu__list {
+        display: flex;
+        gap: 10px 41px;
+        flex-wrap: wrap;
+    }
+
+    .card-info__text {
+        max-width: 500px;
+        padding-top: 51px;
+        padding-bottom: 37px;
+    }
+
+    .card-info-reverse__text {
+        max-width: 450px;
+        padding-top: 43px;
+        padding-bottom: 23px;
+    }
+
+    .yoga-info__container  {
+        padding-top: 51px;
+        padding-bottom: 100px;
+    }
+
+    .yoga-info-reverse__container{
+        padding-bottom: 90px;
+    }
+
+    .lessons__container {
+        padding-bottom: 90px;
+    }
+
+    .schedule__container {
+        padding-bottom: 80px;
+    }
+}
+
+@media (width <= 1010px) {
+    .content-schedule{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .content-schedule__table{
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .content-schedule__picture{
+        width: 100%;
+    }
+
+    .content-schedule__picture img{
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
+}
+
+@media (width <= 909px) {
+    .menu{
+        padding-right: 28px;
+    }
+
+    .menu__list {
+        display: flex;
+        gap: 10px 21px;
+        flex-wrap: wrap;
+    }
+
+    .yoga-info__card, .yoga-info-reverse__card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .yoga-info__container  {
+        padding-top: 31px;
+        padding-bottom: 70px;
+    }
+
+    .yoga-info-reverse__container{
+        padding-bottom: 70px;
+    }
+
+    .card-info{
+        column-gap: 7px;
+    }
+
+    .card-info__text {
+        max-width: 100%;
+        padding-top: 21px;
+        padding-bottom: 27px;
+    }
+
+    .card-info__description {
+        max-width: 100%;
+    }
+
+    .card-info__img {
+        max-width: 100%;
+        width: 100%;
+        padding-top: 50px;
+    }
+
+    .card-info__img img{
+        width: 100%;
+    }
+
+    .card-info-reverse {
+        column-gap: 20px;
+    }
+
+    .card-info-reverse__text {
+        max-width: 100%;
+        padding-top: 33px;
+        padding-bottom: 23px;
+    }
+
+    .card-info-reverse__img {
+        max-width: 100%;
+        width: 100%;
+        padding-top: 30px;
+    }
+
+    .card-info-reverse__img img{
+        width: 100%;
+    }
+
+    .header__button{
+        padding: 10px 27px;
+    }
+}
+
+@media (width < 851px) {
+    .header__button {
+        z-index: 1;
+        margin-left: auto;
+    }
+
+    .menu {
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 100%;
+		z-index: 1;
+		overflow: auto;
+		transition: left 0.3s;
+        background-color: #FDEFE690;
+	}
+
+    .menu__list {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .menu__link {
+        font-size: 30px;
+    }
+
+	.menu::before {
+		content: "";
+		position: fixed;
+		width: 100%;
+		height: 70px;
+		top: 0;
+		left: 100%;
+		transition: left 0.3s;
+		z-index: 2;
+	}
+
+    .header__icon-menu {
+        position: relative;
+		display: block;
+		width: 30px;
+		height: 25px;
+		flex-shrink: 0;
+        z-index: 1;
+	}
+
+    .header__icon-menu span,
+	.header__icon-menu::before,
+	.header__icon-menu::after {
+		content: "";
+		height: 4px;
+		width: 30px;
+		position: absolute;
+		right: 0;
+		transition: all 0.3s;
+		background-color: #BA936F;
+        border-radius: 2px;
+	}
+
+	.header__icon-menu::before {
+		top: 0;
+	}
+
+	.header__icon-menu::after {
+		bottom: 0;
+	}
+
+	.header__icon-menu span {
+		top: 50%;
+		translate: 0 -50%;
+	}
+
+    [data-menu-open] .header__icon-menu span {
+		width: 0;
+	}
+	[data-menu-open] .header__icon-menu::before {
+		rotate: -45deg;
+		translate: 0 -50%;
+		top: 50%;
+	}
+	[data-menu-open] .header__icon-menu::after {
+		rotate: 45deg;
+		translate: 0 50%;
+		bottom: 50%;
+	}
+	[data-menu-open] .menu,
+	[data-menu-open] .menu::before {
+		left: 0;
+	}
+}
+
+@media (width <= 577px) {
+    .content-schedule__table th, td{
+        font-size: 14px;
+    }
+
+    .list {
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    .card-info-reverse__title, .card-info__title, .lessons__title, .schedule__title {
+        font-size: 25px;
+    }
+}
+
+@media (width <= 470px) {
+    .content-schedule__img {
+        display: none;
+    }
+}
+
+@media (width <= 382px) {
+    .header__button a{
+        padding: 10px 17px;;
+    }
+
+    .content-schedule__table th, td{
+        font-size: 12px;
+    }
 }
