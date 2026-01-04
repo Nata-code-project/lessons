@@ -1,0 +1,268 @@
+@import url("reset.css");
+@import url("fonts.css");
+.wrapper{
+    position: relative;
+    min-height: 100%;
+    overflow: clip;
+    
+    display: flex;
+	flex-direction: column;
+}
+.wrapper > main {
+	flex-grow: 1;
+}
+
+.wrapper {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+}
+
+[class*=__container] {
+    max-width: 1016px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.header__container {
+    max-width: 963px;
+    display: flex;
+    justify-content: space-between;
+    min-height: 95px;
+    text-align: center;
+    padding-top: 23.408px;
+    color: #FFFFFF;
+}
+
+.header__logo {
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.header.header--scrolled {
+    background-color: rgba(133, 131, 131, 0.7);
+}
+
+.menu__list {
+    display: flex;
+    gap: 32px;
+    padding-top: 24px;
+}
+
+.menu__item {
+    font-size: 12px;
+}
+
+.menu__item:hover{
+    border-bottom: 1px solid white;
+}
+
+.header__icon-menu {
+    display: none;
+}
+
+.hero {
+    background: url(../img/Home.webp) left / cover no-repeat;
+    width: 100%;
+    max-width: 100%;
+    height: 100vh;
+}
+
+.hero__container {
+    max-width: 963px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero__content{
+    display: flex;
+    color: #FFFFFF;
+    flex-direction: column;
+    position: relative;
+    top: 175px;
+    padding-right: 7px;
+    text-align: center;
+}
+
+.hero__title {
+    font-size: 47px;
+    padding-bottom: 24px;
+}
+
+.hero__text {
+    font-size: 14px;
+    padding-bottom: 80px;
+}
+
+.hero__link {
+    text-decoration: none;
+    font-size: 13px;
+    border: 1px solid #F8F8F8;
+    padding: 8px 13px;
+    max-width: 132px;
+    margin: 0 auto;
+}
+
+.hero__link:hover {
+    background-color: #F8F8F860;
+}
+
+.about__container {
+    padding-top: 84px;
+    text-align: center;
+    padding-bottom: 101px;
+}
+
+.about__title {
+    font-size: 30px;
+}
+
+.about__content {
+    margin-top: 140px;
+    display: flex;
+    gap: 220px;
+    margin-bottom: 135px;
+}
+
+.info-about {
+    max-width: 449px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 35px;
+    text-align: start;
+    color: black;
+}
+
+.info-about__title {
+    font-size: 30px;
+}
+
+.info-about__text-top, .info-about__text-bottom {
+    font-size: 16px;
+}
+
+.about__img {
+    max-width: 317px;
+}
+
+.about__link {
+    font-size: 14px;
+    max-width: 132px;
+    border: 1px solid black;
+    padding: 9px 49px;
+    margin: 0 auto;
+}
+
+.about__link:hover {
+    background-color: rgb(148, 145, 145);
+}
+
+.cosmetics-info::after {
+    content: "";
+    height: 1px;
+    background-color: #837F7F;
+    max-width: 986px;
+    display: block;
+    margin: 0 auto;
+}
+
+.cosmetics-info::before {
+    content: "";
+    height: 1px;
+    background-color: #837F7F;
+    max-width: 986px;
+    display: block;
+    margin: 0 auto;
+}
+
+.cosmetics-info__container {
+    text-align: center;
+    padding-top: 63px;
+    padding-bottom: 117px;
+    color: black;
+}
+
+.cosmetics-info__title {
+    font-size: 36px;
+    margin-bottom: 31px;
+}
+
+.menu-cosmetics-info {
+    margin-bottom: 101px;
+}
+
+.menu-cosmetics-info__list {
+    display: flex; 
+    flex-direction: column;
+    row-gap: 22px;
+    font-size: 16px;
+}
+
+.menu-cosmetics-info__item a:hover::after{
+    content: "";
+    position: relative;
+    top: 10px;
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: black;
+    max-width: 100px;
+    margin: 0 auto;
+}
+
+.cosmetics-info__content {
+    margin-bottom: 118px;
+}
+
+.content-block {
+    margin-bottom: 118px;
+}
+
+.content-block__list {
+    display: flex;
+    max-width: 784px;
+    row-gap: 76px;
+    column-gap: 92px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.content-block__item figure{
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.content-block__img {
+    max-width: 200px;
+}
+
+.content-block__figcaption {
+    font-size: 20px;
+}
+
+.cosmetics-info__link{
+    border: 1px solid black;
+    padding: 10px 50px;
+    max-width: 133px;
+    margin: 0 auto;
+}
+
+.cosmetics-info__link:hover{
+    background-color: rgb(148, 145, 145);
+}
+
+footer{
+    text-align: center;
+    font-size: 16px;
+}
