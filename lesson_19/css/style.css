@@ -18,10 +18,10 @@
 }
 
 [class*=__container] {
-    max-width: 1016px;
+    max-width: 63.5rem;
     margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
 }
 
 .header {
@@ -33,17 +33,17 @@
 }
 
 .header__container {
-    max-width: 963px;
+    max-width: 60.1875rem;
     display: flex;
     justify-content: space-between;
-    min-height: 95px;
+    min-height: 5.9375rem;
     text-align: center;
-    padding-top: 23.408px;
+    padding-top: 1.463rem;
     color: #FFFFFF;
 }
 
 .header__logo {
-    font-size: 36px;
+    font-size: 2.25rem;
     text-transform: uppercase;
 }
 
@@ -53,16 +53,16 @@
 
 .menu__list {
     display: flex;
-    gap: 32px;
-    padding-top: 24px;
+    gap: 2rem;
+    padding-top: 1.5rem;
 }
 
 .menu__item {
-    font-size: 12px;
+    font-size: 0.75rem;
 }
 
 .menu__item:hover{
-    border-bottom: 1px solid white;
+    border-bottom: 0.0625rem solid white;
 }
 
 .header__icon-menu {
@@ -77,7 +77,7 @@
 }
 
 .hero__container {
-    max-width: 963px;
+    max-width: 60.1875rem;
     display: flex;
     justify-content: flex-end;
 }
@@ -87,27 +87,27 @@
     color: #FFFFFF;
     flex-direction: column;
     position: relative;
-    top: 175px;
-    padding-right: 7px;
+    top: 10.9375rem;
+    padding-right: 0.4375rem;
     text-align: center;
 }
 
 .hero__title {
-    font-size: 47px;
-    padding-bottom: 24px;
+    font-size: 2.9375rem;
+    padding-bottom: 1.5rem;
 }
 
 .hero__text {
-    font-size: 14px;
-    padding-bottom: 80px;
+    font-size: 0.875rem;
+    padding-bottom: 5rem;
 }
 
 .hero__link {
     text-decoration: none;
-    font-size: 13px;
-    border: 1px solid #F8F8F8;
-    padding: 8px 13px;
-    max-width: 132px;
+    font-size: 0.8125rem;
+    border: 0.0625rem solid #F8F8F8;
+    padding: 0.5rem 0.8125rem;
+    max-width: 8.25rem;
     margin: 0 auto;
 }
 
@@ -116,49 +116,49 @@
 }
 
 .about__container {
-    padding-top: 84px;
+    padding-top: 5.25rem;
     text-align: center;
-    padding-bottom: 101px;
+    padding-bottom: 6.3125rem;
 }
 
 .about__title {
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 
 .about__content {
-    margin-top: 140px;
+    margin-top: 8.75rem;
     display: flex;
-    gap: 220px;
-    margin-bottom: 135px;
+    gap: 13.75rem;
+    margin-bottom: 8.4375rem;
 }
 
 .info-about {
-    max-width: 449px;
-    margin-top: 25px;
+    max-width: 28.0625rem;
+    margin-top: 1.5625rem;
     display: flex;
     flex-direction: column;
-    row-gap: 35px;
+    row-gap: 2.1875rem;
     text-align: start;
     color: black;
 }
 
 .info-about__title {
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 
 .info-about__text-top, .info-about__text-bottom {
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .about__img {
-    max-width: 317px;
+    max-width: 19.8125rem;
 }
 
 .about__link {
-    font-size: 14px;
-    max-width: 132px;
-    border: 1px solid black;
-    padding: 9px 49px;
+    font-size: 0.875rem;
+    max-width: 8.25rem;
+    border: 0.0625rem solid black;
+    padding: 0.5625rem 3.0625rem;
     margin: 0 auto;
 }
 
@@ -168,93 +168,93 @@
 
 .cosmetics-info::after {
     content: "";
-    height: 1px;
+    height: 0.0625rem;
     background-color: #837F7F;
-    max-width: 986px;
+    max-width: 61.625rem;
     display: block;
     margin: 0 auto;
 }
 
 .cosmetics-info::before {
     content: "";
-    height: 1px;
+    height: 0.0625rem;
     background-color: #837F7F;
-    max-width: 986px;
+    max-width: 61.625rem;
     display: block;
     margin: 0 auto;
 }
 
 .cosmetics-info__container {
     text-align: center;
-    padding-top: 63px;
-    padding-bottom: 117px;
+    padding-top: 3.9375rem;
+    padding-bottom: 7.3125rem;
     color: black;
 }
 
 .cosmetics-info__title {
-    font-size: 36px;
-    margin-bottom: 31px;
+    font-size: 2.25rem;
+    margin-bottom: 1.9375rem;
 }
 
 .menu-cosmetics-info {
-    margin-bottom: 101px;
+    margin-bottom: 6.3125rem;
 }
 
 .menu-cosmetics-info__list {
     display: flex; 
     flex-direction: column;
-    row-gap: 22px;
-    font-size: 16px;
+    row-gap: 1.375rem;
+    font-size: 1rem;
 }
 
 .menu-cosmetics-info__item a:hover::after{
     content: "";
     position: relative;
-    top: 10px;
+    top: 0.625rem;
     display: block;
-    height: 1px;
+    height: 0.0625rem;
     width: 100%;
     background-color: black;
-    max-width: 100px;
+    max-width: 6.25rem;
     margin: 0 auto;
 }
 
 .cosmetics-info__content {
-    margin-bottom: 118px;
+    margin-bottom: 7.375rem;
 }
 
 .content-block {
-    margin-bottom: 118px;
+    margin-bottom: 7.375rem;
 }
 
 .content-block__list {
     display: flex;
-    max-width: 784px;
-    row-gap: 76px;
-    column-gap: 92px;
+    max-width: 49rem;
+    row-gap: 4.75rem;
+    column-gap: 5.75rem;
     flex-wrap: wrap;
     margin: 0 auto;
 }
 
 .content-block__item figure{
-    max-width: 200px;
+    max-width: 12.5rem;
     display: flex;
     flex-direction: column;
-    row-gap: 15px;
+    row-gap: 0.9375rem;
 }
 
 .content-block__img {
-    max-width: 200px;
+    max-width: 12.5rem;
 }
 
 .content-block__figcaption {
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .cosmetics-info__link{
-    border: 1px solid black;
-    padding: 10px 50px;
-    max-width: 133px;
+    border: 0.0625rem solid black;
+    padding: 0.625rem 3.125rem;
+    max-width: 8.3125rem;
     margin: 0 auto;
 }
 
@@ -264,23 +264,23 @@
 
 footer{
     text-align: center;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
-@media (width <= 966px) { 
+@media (width <= 60.375rem) { 
     .about__content{
-        gap: 100px;
+        gap: 6.25rem;
         justify-content: center;
     }
 }
 
-@media (width <= 820px) {
+@media (width <= 51.25rem) {
     .info-about {
-        max-width: 350px;
+        max-width: 21.875rem;
     }
 
     .content-block__item figure {
-        max-width: 250px;
+        max-width: 15.625rem;
     }
 
     .content-block__img {
@@ -293,11 +293,11 @@ footer{
     }
 
     .hero {
-        max-height: 700px;
+        max-height: 43.75rem;
     }
 }
 
-@media (width <= 722px) {
+@media (width <= 45.125rem) {
     .content-block__item figure {
         max-width: 100%;
     }
@@ -308,10 +308,10 @@ footer{
     }
 
     .about__content {
-        margin-top: 50px;
+        margin-top: 3.125rem;
         display: flex;
         flex-direction: column;
-        margin-bottom: 50px;
+        margin-bottom: 3.125rem;
     }
 
     .info-about {
@@ -323,12 +323,12 @@ footer{
     }
 
     .about__container {
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding-top: 3.125rem;
+        padding-bottom: 3.125rem;
     }
 }
 
-@media (width <= 578px) {
+@media (width <= 36.125rem) {
     .menu {
 		position: fixed;
 		width: 100%;
@@ -354,14 +354,14 @@ footer{
     }
 
     .menu__item {
-        font-size: 30px;
+        font-size: 1.875rem;
     }
 
 	.menu::before {
 		content: "";
 		position: fixed;
 		width: 100%;
-		height: 70px;
+		height: 4.375rem;
 		top: 0;
 		left: 100%;
 		transition: left 0.3s;
@@ -371,8 +371,8 @@ footer{
     .header__icon-menu {
         position: relative;
 		display: block;
-		width: 30px;
-		height: 25px;
+		width: 1.875rem;
+		height: 1.5625rem;
 		flex-shrink: 0;
         z-index: 1;
 	}
@@ -381,13 +381,13 @@ footer{
 	.header__icon-menu::before,
 	.header__icon-menu::after {
 		content: "";
-		height: 4px;
-		width: 30px;
+		height: 0.25rem;
+		width: 1.875rem;
 		position: absolute;
 		right: 0;
 		transition: all 0.3s;
 		background-color: white;
-        border-radius: 2px;
+        border-radius: 0.125rem;
 	}
 
 	.header__icon-menu::before {
@@ -422,13 +422,13 @@ footer{
 	}
 
     .cosmetics-info__container {
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding-top: 3.125rem;
+        padding-bottom: 3.125rem;
     }
 }
 
-@media (width <= 395px ) {
+@media (width <= 24.6875rem ) {
     .hero__title {
-        font-size: 30px;
+        font-size: 1.875rem;
     }
 }
